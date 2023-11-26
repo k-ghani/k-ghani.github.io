@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector("#portfolioNav").classList.add("active");
         } else if (queryLink.includes("aboutme")) {
             document.querySelector("#aboutmeNav").classList.add("active");
+        } else {
+            window.location.href = "index.html";
         }
 
         // Image Button click event
